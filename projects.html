@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Isamu Dorr-Yamazaki</title>
+  <meta name="description" content="Isamu Dorr-Yamazaki, software engineer at Respawn Entertainment. Gameplay systems and technical audio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo caps" href="index.html">Isamu Dorr-Yamazaki</a>
+    <button class="menu-toggle caps" type="button" aria-controls="menu" aria-expanded="false">Menu <span class="bars"></span></button>
+  </header>
+
+  <nav class="menu" id="menu" aria-label="Main">
+    <button class="menu-toggle close caps" type="button">Close</button>
+    <ul>
+      <li><a class="caps" href="index.html">Home</a></li>
+      <li><a class="caps" href="about.html">About</a></li>
+      <li><a class="caps" href="projects.html">Projects</a></li>
+      <li><a class="caps" href="audio.html">Audio</a></li>
+      <li><a class="caps" href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner short">
+    <div class="inner">
+      <h1>Projects</h1>
+      <p class="caps">Gameplay Systems / Networking / Tools</p>
+    </div>
+  </div>
+  <section class="spot" id="resonance">
+    <div class="pic tint-violet" style="background-image: url('images/resonance.jpg')"></div>
+    <div class="body">
+      <h2>Resonance</h2>
+      <p class="caps">Unity / C# / PurrNet / Wwise / HLSL</p>
+      <p>A multiplayer arena shooter made by a 12-person team with Chapman University and the University of Waterloo. I was project lead, audio lead, and a gameplay programmer.</p>
+      <ul>
+        <li>Networked gameplay: a spline-driven train with working doors, a zipline you can jump off, a sonar disc that sticks to walls and respects line of sight, and directional damage indicators</li>
+        <li>Wwise systems that read the level geometry to handle occlusion, reverb, and directional ambience</li>
+        <li>URP shaders in HLSL, including a refracting bubble shield, a glitch death effect, and volumetric fog</li>
+      </ul>
+        <div class="buttons"><a class="button" href="https://github.com/isamu-yamazaki/REPO-NAME">View code</a><a class="button" href="audio.html#resonance">Audio breakdown</a></div>
+    </div>
+  </section>
+  <section class="spot">
+    <div class="pic tint-teal" style="background-image: url('images/wav-inspector.jpg')"></div>
+    <div class="body">
+      <h2>WAV Inspector</h2>
+      <p class="caps">JavaScript / Web Audio / Tools</p>
+      <p>A browser tool that checks WAV files against Wwise import settings and exports a report as CSV or JSON. All the analysis runs locally in the page.</p>
+        <div class="buttons"><a class="button" href="https://github.com/isamu-yamazaki/REPO-NAME">View code</a><a class="button" href="https://isamu-yamazaki.github.io/REPO-NAME/">Try it</a></div>
+    </div>
+  </section>
+  <section class="spot">
+    <div class="pic tint-coral" style="background-image: url('images/dating-sim.jpg')"></div>
+    <div class="body">
+      <h2>Dating Sim Architecture</h2>
+      <p class="caps">Unity / C# / MVVM / NUnit / CI</p>
+      <p>A Unity game with its logic in a shared .NET Standard library, an MVVM layer for the UI, NUnit tests running in CI, and a service locator connecting the pieces.</p>
+        <div class="buttons"><a class="button" href="https://github.com/isamu-yamazaki/REPO-NAME">View code</a></div>
+    </div>
+  </section>
+  <section class="spot">
+    <div class="pic tint-sand" style="background-image: url('images/controller.jpg')"></div>
+    <div class="body">
+      <h2>Third-Person Controller</h2>
+      <p class="caps">Unity / C# / Cinemachine</p>
+      <p>Movement with sliding, crouching, and sprinting, plus camera FOV changes that sell the speed. This became the base movement for Resonance.</p>
+        <div class="buttons"><a class="button" href="https://github.com/isamu-yamazaki/REPO-NAME">View code</a></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="inner">
+      <div><h3 class="caps">Email</h3><p><a href="mailto:isamu.dy2@gmail.com">isamu.dy2@gmail.com</a></p></div>
+      <div><h3 class="caps">GitHub</h3><p><a href="https://github.com/isamu-yamazaki">isamu-yamazaki</a></p></div>
+      <div><h3 class="caps">LinkedIn</h3><p><a href="https://www.linkedin.com/in/YOUR-LINKEDIN">Isamu Dorr-Yamazaki</a></p></div>
+    </div>
+  </section>
+  <footer class="copyright">&copy; 2026 Isamu Dorr-Yamazaki</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
