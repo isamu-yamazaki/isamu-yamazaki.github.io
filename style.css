@@ -1,7 +1,7 @@
 :root {
-  --bg: #23283f;
-  --bg-alt: #2a3049;
-  --bg-deep: #1e2236;
+  --bg: #1b1b1d;
+  --bg-alt: #232326;
+  --bg-deep: #141415;
   --text: #ffffff;
   --muted: rgba(255, 255, 255, 0.66);
   --rule: rgba(255, 255, 255, 0.85);
